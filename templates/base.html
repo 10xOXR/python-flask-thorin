@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
-    <title>Thorin &amp; Company</title>
+    <title>{{ tab_title }}Thorin &amp; Company</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/thorin-and-comp.png') }}')">
+    <header class="masthead" style="background-image: url('static/img/thorin-and-comp.png')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
