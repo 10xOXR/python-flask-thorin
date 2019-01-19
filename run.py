@@ -44,6 +44,6 @@ def careers():
     return render_template("careers.html", page_title=pageTitle, tab_title=pageTitle + tabTitle)
 
 if __name__ == "__main__":
-    app.run(host=os.environ.get("IP"),
+    app.run(host= '0.0.0.0',
             port=os.environ.get("PORT"),
             debug=True)
